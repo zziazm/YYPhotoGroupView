@@ -31,6 +31,6 @@
 
 @property (nullable, nonatomic, readonly) UIViewController *viewController;
 
-- (UIImage *)snapshotImage;
-- (UIImage *)snapshotImageAfterScreenUpdates:(BOOL)afterUpdates;
+- (UIImage * _Nonnull )snapshotImage;
+- (UIImage *_Nonnull)snapshotImageAfterScreenUpdates:(BOOL)afterUpdates;
 @end
